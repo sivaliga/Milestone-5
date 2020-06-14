@@ -1,9 +1,45 @@
-# DATA MINING (WQD7005)
-# Prepared by : Sivanesan Pillai (WQD 170074)
-# Milestone 5 : Web Deployment (Flask)
+# Blood-Bank
+Blood bank website made with [python3](https://www.python.org/download/releases/3.0/) ,[flask](http://flask.pocoo.org/), [Sqlite](https://www.sqlite.org/index.html), [Bootstrap](https://getbootstrap.com). 
 
-A) Web : Blood-Bank-master (server.py)
+The web app was made for the project under the  CSE 5th semester course DBMS (Database Management Systems) of [MSRIT](http://www.msrit.edu/) banglore.
 
-B) Slide : Milestone 5 - Presentation (ppt file)
+Some of the functionality which can be benefited by being a User is listed below
 
-C) Video : https://share.vidyard.com/watch/hrFYxbiepPQvrA2t8Bq2FE?
+1. User Registration and Login, Logout.
+2. Update your Profile , Delete your account.
+3. Request/contact for Blood.
+4. Notification's for Requests.
+5. Search for Blood.
+
+NOTE : admin's credentials
+
+1. Email : admin@bloodbank.com
+2. Password : admin
+
+Functionality for Admin is listed below
+
+1. Dashboard
+2. Add blood in the Blood Bank
+3. Edit blood donatations and their details
+4. Contact registered users
+5. Delete users/entries
+
+Instructions:
+
+1. clone the repository and navigate to the directory 
+
+2. Install the dependencies
+
+```python
+ pip install -r requirements.txt
+```
+3. Start the server
+
+```python
+ python3 server.py
+```
+4. Hurray!!.. Donote Blood.
+
+
+
+
